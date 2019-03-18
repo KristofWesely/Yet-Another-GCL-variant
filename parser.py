@@ -40,7 +40,6 @@ class CalcLexer(Lexer):
 
 
 class CalcParser(Parser):
-    debugfile = 'parser.out'
     tokens = CalcLexer.tokens
 
     precedence = (
