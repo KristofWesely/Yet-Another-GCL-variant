@@ -18,7 +18,7 @@ class CalcLexer(Lexer):
     DO              = r'do '
     OD              = r'od'
     BOOL            = r'true|false'
-    NAME = r'[a-zA-Z_][a-zA-Z0-9_]*'
+    NAME            = r'[a-zA-Z_][a-zA-Z0-9_]*'
     ASSIGN          = r':='
     COMP            = r'<=|>=|!=|=|<|>'
     LOGIC           = r'&&|\|\||&|\|'
